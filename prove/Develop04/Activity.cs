@@ -18,15 +18,6 @@ public class Activity
         _duration = duration;
     }
 
-    /*
-        public Activity(string name, string description, int duration, List<string> promps)
-        {
-            _name = name;
-            _description = description;
-            _duration = duration;
-
-        }
-    */
     public void DisplayStartingMessage()
     {
         Console.WriteLine($"{_description}");
@@ -38,9 +29,6 @@ public class Activity
     }
     public void ShowSpinner(int seconds)
     {
-        Console.Clear();
-        Console.WriteLine("Get Ready...");
-
         DateTime startTime = DateTime.Now;
         DateTime futureTime = startTime.AddSeconds(seconds);
 

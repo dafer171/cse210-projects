@@ -48,8 +48,8 @@ public class ReflectionActivity : Activity
             int randomIndex1 = random.Next(_questions.Count);
             string selectedQuestion = _questions[randomIndex1];
 
-            Console.WriteLine($"{selectedQuestion}");
-            Thread.Sleep(5000);
+            Console.WriteLine($"> {selectedQuestion}"); ShowSpinner(5);
+            Thread.Sleep(4000);
 
         }
     }

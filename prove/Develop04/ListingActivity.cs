@@ -38,9 +38,8 @@ public class ListingActivity : Activity
         {
             Console.Write("> ");
             answers.Add(Console.ReadLine());
-            Console.WriteLine($"You listed {answers.Count} items");
-
         }
+        Console.WriteLine($"You listed {answers.Count} items");
         Console.ReadLine();
 
     }

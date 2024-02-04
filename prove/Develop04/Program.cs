@@ -48,11 +48,15 @@ class Program
                 duration = int.Parse(Console.ReadLine());
                 a1 = new Activity(name, description, duration);
 
+                Console.Clear();
+                Console.WriteLine("Get Ready...");
+
                 a1.ShowSpinner(5);
 
                 BreathingActivity b1 = new BreathingActivity(name, description, duration);
                 b1.Run();
 
+                Console.Clear();
                 a1.ShowSpinner(5);
 
                 a1.DisplayEndingMessage();
@@ -91,6 +95,9 @@ class Program
                 duration = int.Parse(Console.ReadLine());
                 a2 = new Activity(name, description, duration);
 
+                Console.Clear();
+                Console.WriteLine("Get Ready...");
+
                 a2.ShowSpinner(5);
 
                 ReflectionActivity r2 = new ReflectionActivity(name, description, duration, prompts, questions);
@@ -123,13 +130,16 @@ class Program
                 duration = int.Parse(Console.ReadLine());
                 a3 = new Activity(name, description, duration);
 
+                Console.Clear();
+                Console.WriteLine("Get Ready...");
+
                 a3.ShowSpinner(5);
 
                 ListingActivity l3 = new ListingActivity(name, description, duration, count, prompts);
                 l3.Run();
 
                 a3.DisplayEndingMessage();
-
+                Thread.Sleep(2000);
                 Console.Clear();
             }
 
