@@ -23,5 +23,4 @@ public class Customer
     {
         return _address.IsInUSA();
     }
-
 }

@@ -30,5 +30,4 @@ public class Event
     {
         return $"\nType: {GetType().Name} Title: {_eventTitle} Date: {_eventDate}";
     }
-
 }

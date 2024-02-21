@@ -19,7 +19,6 @@ public class Order
 
         double shippingCost = 0;
 
-
         if (CustomerUSA() == true)
         {
             shippingCost = 5;

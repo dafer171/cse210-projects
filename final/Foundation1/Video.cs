@@ -25,6 +25,6 @@ public class Video
 
     public string GetVideoDetails()
     {
-        return $"Video Title: {_title}, Author Name: {_author}, Lenght: {_lenght}";
+        return $"\nVideo Title: {_title}, Author Name: {_author}, Lenght: {_lenght}";
     }
 }

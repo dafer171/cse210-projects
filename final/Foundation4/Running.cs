@@ -1,5 +1,3 @@
-using System.Diagnostics;
-
 public class Running : Activity
 {
     private double _distance;
